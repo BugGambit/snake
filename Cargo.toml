@@ -1,0 +1,12 @@
+[package]
+name = "snake"
+version = "0.1.0"
+authors = ["Fredrik Anfinsen <fredrik.anfinsen@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+piston_window = "0.117.0"
+rand = "0.6.5"
+serialport = "4.0.0"
