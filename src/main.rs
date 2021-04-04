@@ -18,7 +18,7 @@ use tiles::Tiles;
 fn main() {
   let mut game_state = GameState::new(BOARD_SIZE);
 
-  let mut window: PistonWindow = WindowSettings::new("F1 Snake", WINDOW_SIZE)
+  let mut window: PistonWindow = WindowSettings::new("BugGambit - Snake", WINDOW_SIZE)
     .resizable(false)
     .build()
     .unwrap();
